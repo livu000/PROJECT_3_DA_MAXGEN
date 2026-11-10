@@ -1,0 +1,64 @@
+Project Objectives
+Power BI Manufacturing Analytics Dashboard
+Objective: Create an interactive manufacturing analytics dashboard using 5 interconnected tables (geo, fact, manufacture, products, dates) to analyze production efficiency, geographical distribution, and quality metrics.
+ MANDATORY REQUIREMENTS:
+1. Data Modeling:
+Create calendar table using DAX( Month Name, Month Count)
+ Connect all 5 tables in star schema
+ Establish proper relationships between fact and dimension tables
+ 
+2. DAX Measures (Minimum 6):
+YTD(Year-to-Date (YTD): Measures the cumulative total from the first day of the current calendar or fiscal year up to the current date. For example, on a pay stub, YTD shows your total earnings and tax deductions accumulated since January)/MTD(Month-to-Date (MTD): Measures the cumulative total of a metric (like sales, revenue, or expenses) from the first day of the current month up to the most recent completed day.) (Year-to-Date and Month-to-Date). calculations(exclude)
+Production efficiency metrics
+Quality score analytics
+Geographical performance indicators
+Defect rate analysis
+ 
+3. Dashboard Pages (4 Pages):
+Executive Overview - High-level KPIs and trends
+Geographical Analysis - Map visualization and regional insights(i aim using the college mail for it so,  i don't have access of it)
+ Manufacturing Efficiency - Process and quality metrics
+Detailed Drill-Through - Plant-level analysis
+ 
+4. Interactivity Features:
+Cross-filtering between all visuals
+ Bookmarks (Daily/Monthly/Quarterly views)
+ Tooltips with additional metrics
+ Drill-through from map to plant details
+ Slicers: Date range, Product Category, Region, Quality Score threshold
+ 
+5. Technical Requirements:
+All tables properly connected
+ Star schema implemented correctly
+ Map visualization using geographical data
+ Time intelligence (YTD/MTD) implemented
+ Professional formatting and themes
+ Mobile layout optimized
+ 
+6. Design Requirements:
+Color Scheme: Manufacturing-appropriate (blues, greens, oranges)
+ Consistent font and formatting across pages
+ Mobile responsive layout
+ 
+SUCCESS CRITERIA:
+Dashboard loads without errors
+ All interactivity features work smoothly
+ Calculations are accurate
+ Design is professional and consistent
+ Mobile view is optimized
+ 
+SUBMISSION:
+.pbix file - Complete Power BI dashboard
+ Documentation containing:
+ Relationship diagram
+ DAX formulas used
+ 
+3 key business insights found
+ Screenshots of all dashboard pages
+ Implementation notes and challenges
+
+
+
+
+My Summary 
+1. Region null in bi_geo
